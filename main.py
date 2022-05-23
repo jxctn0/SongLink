@@ -1,2 +1,2 @@
-link = input(id="link")
+link = input()
 print(link)
