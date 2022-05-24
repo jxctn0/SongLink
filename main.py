@@ -53,4 +53,4 @@ def my_function(*args, **kwargs):
 
     Element("general-link").element.innerText = text
 
-    Element("general-link").
+    Element("general-link").element.innerText = text[0:3]
