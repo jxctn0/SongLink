@@ -2,6 +2,9 @@
     --main_background_color: #456789;
     --body_background_color: #fedcba;
     --main_text_color: #a51300;
+    --input_box_bg: #baddff;
+    --bg_text_color: #e3e3e3;
+    --outline_color: #203040;
 }
 
 body {
@@ -14,6 +17,12 @@ body {
 }
 
 .submit_btn {
-    background-color: #456789;
+    background-color: var(--main_background_color);
     color: var(--body_text_color);
+}
+
+.input_box {
+    background-color: var(--input_box_bg);
+    color: var(--bg_text_color);
+    outline: var(--outline_color);
 }
