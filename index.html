@@ -1,11 +1,21 @@
+<!DOCTYPE html>
+
 <html>
-    <head>
-    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
-    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-    </head>
-<body style="background-color: #000123;">
-<div style="color: #fffedc;">
-<py-script src="/main.py" inputmode="box"></py-script>
-</body>
-</div>
+
+<head>
+  <!--<link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />-->
+  <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+</head>
+
+<body>
+  <div>Type an sample input here</div>
+  <input type="text" id="test-input"/>
+  <button id="submit-button" type="submit" pys-onClick="test_func">OK</button>
+  <div id="test-output"></div>
+
+<py-script src="/main.py">
+
+</py-script>
+
+  </body>
 </html>

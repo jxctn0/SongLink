@@ -1,0 +1,14 @@
+:root {
+    --main_background_color: #456789;
+    --body_background_color: #fedcba;
+    --main_text_color: #a51300;
+}
+
+body {
+    background-color: var(--background_color); /* Main Background Color */
+}
+
+.main_content {
+    background-color: #fedcba; /* Main Body */
+    color: 
+}
