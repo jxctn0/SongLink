@@ -10,5 +10,10 @@ body {
 
 .main_content {
     background-color: #fedcba; /* Main Body */
-    color: 
+    color: var(--main_text_color)
+}
+
+.submit_btn {
+    background-color: #456789;
+    color: var(--body_text_color);
 }
