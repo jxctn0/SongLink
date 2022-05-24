@@ -38,7 +38,7 @@
 
 from js import console
 
-def my_function(*args, **kwargs):
+def test_func(*args, **kwargs):
 
     # print('args:', args)
     # print('kwargs:', kwargs)
