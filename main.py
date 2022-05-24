@@ -46,9 +46,11 @@ def my_function(*args, **kwargs):
     console.log(f'args: {args}')
     console.log(f'kwargs: {kwargs}')
     
-    text = Element('test-input').element.value
+    text = Element("input-box").element.value
 
     #print('text:', text)
     console.log(f'text: {text}')
 
-    Element('test-output').element.innerText = text
+    Element("general-link").element.innerText = text
+
+    Element("general-link").

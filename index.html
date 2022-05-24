@@ -3,23 +3,23 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
-  <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-  <title>Song Link</title>
-  <py-env>
-      - js
-  </py-env>
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <title>Song Link</title>
 </head>
 
 <body>
-  <div>Type an sample input here</div>
-  <input type="text" id="test-input"/>
-  <button id="submit-button" type="submit" pys-onClick="test_func">OK</button>
-  <div id="test-output"></div>
+    <div class="main-content">
+    <div>Type an sample input here</div>
+    <input type="text" id="test-input" />
+    <button id="submit-button" type="submit" pys-onClick="test_func">OK</button>
+    <div id="test-output">
 
-<py-script src="/main.py">
+    </div>
 
-</py-script>
+    <py-script src="/main.py"></py-script>
+    </div>
 
-  </body>
+</body>
+
 </html>
